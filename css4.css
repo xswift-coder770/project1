@@ -1,0 +1,118 @@
+.main {
+  background-image: url('pexels-pixabay-46253.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.main h2 {
+  color: rgb(234, 234, 234);
+  margin: 4rem 34rem;
+  font-style: italic;
+  font-size: xx-large;
+}
+
+.header {
+  background-color: #0210d5;
+  color: #fff;
+  padding: 40px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px 20px 0px 0px;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+nav ul li a.button {
+  font-size: medium;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #f5f3f3;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+nav ul li a.button:hover {
+  padding: 13px 25px;
+  color: #ffffff;
+  border: 5px solid #5571d8;
+  background-color: #171616;
+}
+
+.content {
+  margin: 20px 200px 0px 200px;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 50px;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-right:200px;
+  margin-left:100px;
+}
+
+.input-group-addon {
+  padding: 8px 12px;
+  margin-right: 5px;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 4px;
+}
+
+.input-group input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 0 4px 4px 0;
+}
+
+.registration {
+  margin-left: 400px;
+  width: 15rem;
+}
+
+.registration input {
+  width: 15rem;
+  font-style: oblique;
+}
+
+.gender {
+  margin: 0px;
+   
+}
+.country{
+  margin-left:100px;
+}
+
+.gender i{
+  background-color: #000000;
+  margin-left:100px;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  margin: 50px 0px 0px 0px;
+}
